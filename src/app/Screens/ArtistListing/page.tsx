@@ -3,7 +3,7 @@
 import data from "@/data/artists.json";
 import { useCategory } from "../../context/CategoryContext";
 import { useSearchParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import ArtistCard from "@/app/components/ArtistCard";
 import Quotation from "@/app/components/Quotation";
 import Filters, { filterByPriceRange } from "@/app/components/Filters";
@@ -14,16 +14,15 @@ type Artist = {
   category: string;
   price: string;
   location: string;
-  url?: string; 
+  url?: string;
 };
 
-
-export default function ArtistListing() {
+function ArtistListingInner() {
   const { category, setCategory } = useCategory();
   const urlCategory = useSearchParams().get("category");
   const [loc, setLoc] = useState("All");
   const [price, setPrice] = useState("All");
-const [selArt, setSelArt] = useState<Artist | null>(null);
+  const [selArt, setSelArt] = useState<Artist | null>(null);
   const [isOpen, setOpen] = useState(false);
 
   // Sync category from URL
@@ -80,5 +79,14 @@ const [selArt, setSelArt] = useState<Artist | null>(null);
         selectedArtist={selArt}
       />
     </main>
+  );
+}
+
+// ✅ Wrap in Suspense to fix hydration and prerender errors
+export default function ArtistListingPage() {
+  return (
+    <Suspense fallback={<div className="text-center py-10 text-purple-500">Loading...</div>}>
+      <ArtistListingInner />
+    </Suspense>
   );
 }
