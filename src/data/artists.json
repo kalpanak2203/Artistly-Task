@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "url": "https://media.insider.in/image/upload/c_crop,g_custom/v1728462701/yiwwlrbe78ahhohjjmum.jpg",
+    "name": "Arijit Singh",
+    "category": "Singer",
+    "price": "₹30L - ₹50L",
+    "location": "Mumbai"
+  },
+  {
+    "id": 2,
+    "url": "https://blog.bharatlyrics.com/wp-content/uploads/2023/12/Neha-Kakkar-Wiki.png",
+    "name": "Neha Kakkar",
+    "category": "Singer",
+    "price": "₹20L - ₹30L",
+    "location": "Delhi"
+  },
+  {
+    "id": 3,
+    "url": "https://m.economictimes.com/thumb/height-450,width-600,imgsize-765580,msid-75406395/shakira-revealed-that-she-prepared-for-the-course-after-her-children-went-off-to-sleep-.jpg",
+    "name": "Shakira",
+    "category": "Singer",
+    "price": "25L - ₹40L",
+    "location": "London"
+  },
+  {
+    "id": 4,
+    "url": "https://akm-img-a-in.tosshub.com/indiatoday/images/media_bank/202308/ar-raman-birthday-fansjpg-013213-16x9_0.jpg?VersionId=8IdNql2sscklQZKA_KJCooG3f5taeFk_&size=690:388",
+    "name": "A. R. Rahman",
+    "category": "Singer",
+    "price": "₹50L - ₹70L",
+    "location": "Mumbai"
+  },
+  {
+    "id": 5,
+    "url": "https://hips.hearstapps.com/hmg-prod/images/lady-gaga-attends-the-64th-annual-grammy-awards-at-mgm-news-photo-1727455427.jpg?crop=1.00xw:0.667xh;0,0.0477xh&resize=640:*",
+    "name": "Lady Gaga",
+    "category": "Singer",
+    "price": "50L - ₹70L",
+    "location": "New York"
+  },
+  {
+    "id": 6,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Sonu_Nigam121.jpg",
+    "name": "Sonu Nigam",
+    "category": "Singer",
+    "price": "₹15L - ₹25L",
+    "location": "Mumbai"
+  },
+  {
+    "id": 7,
+    "url": "https://observervoice.com/wp-content/uploads/2022/01/Hrithik-Roshan-jpg-webp.webp",
+    "name": "Hrithik Roshan",
+    "category": "Dancer",
+    "price": "₹60L - ₹80L",
+    "location": "Mumbai"
+  },
+  {
+    "id": 8,
+    "url": "https://m.media-amazon.com/images/M/MV5BN2Q3NTA4NWUtNTY3OC00ZmVkLTllZTAtZmFkMGFiNGYxNDE1XkEyXkFqcGc@._V1_.jpg",
+    "name": "Maddie Ziegler",
+    "category": "Dancer",
+    "price": "15L - ₹25L",
+    "location": "London"
+  },
+  {
+    "id": 9,
+    "url": "https://www.bollywoodshaadis.com/img/article-2023616215303955839000.jpg",
+    "name": "Prabhu Deva",
+    "category": "Dancer",
+    "price": "₹25L - ₹40L",
+    "location": "Delhi"
+  },
+  {
+    "id": 10,
+    "url": "https://tribeza.com/wp-content/uploads/2024/02/Members-of-the-Company-in-Alvin-Aileys-For-Bird-With-Love.-Photo-by-Dario-Calmese_0071-scaled.jpg",
+    "name": "Alvin Ailey Dance Company",
+    "category": "Dancer",
+    "price": "₹10L - ₹20L",
+    "location": "New York"
+  },
+  {
+    "id": 11,
+    "url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202406/shantanu-maheshwari-183754391-16x9_0.jpg?VersionId=fZO_jp9lUW5U55hfnGT6yIFhOrUXCC1c",
+    "name": "Shantanu Maheshwari",
+    "category": "Dancer",
+    "price": "₹10L - ₹20L",
+    "location": "Delhi"
+  },
+  {
+    "id": 12,
+    "url": "https://img.etimg.com/thumb/width-1200,height-1200,imgsize-2693161,resizemode-75,msid-71952947/magazines/panache/tiger-shroff-to-be-the-face-of-mumbai-marathon-says-its-close-to-his-heart.jpg",
+    "name": "Tiger Shroff",
+    "category": "Dancer",
+    "price": "₹40L - ₹60L",
+    "location": "Mumbai"
+  },
+  {
+    "id": 13,
+    "url": "https://lh3.googleusercontent.com/agjpr_bUEvGE4eBXPkDlLuTvQ34z13LL60GzK_xgWoo08h257I0XL9syrGTHa-UuzLm9Rfwmk_bHt5k=w2880-h1200-p-l90-rj",
+    "name": "DJ Snake",
+    "category": "DJ",
+    "price": "10L - ₹20L",
+    "location": "Paris"
+  },
+  {
+    "id": 14,
+    "url": "https://images.ctfassets.net/opz1rk40r4ou/3uInKknUoaJQddfLzB8vtA/f3a12a30d17f689bc5cb64d3b07d0b57/Dj_Chetas.jpg",
+    "name": "DJ Chetas",
+    "category": "DJ",
+    "price": "₹15L - ₹25L",
+    "location": "Bangalore"
+  },
+  {
+    "id": 15,
+    "url": "https://imageio.forbes.com/specials-images/imageserve/558c850be4b05c2c34315d52/0x0.jpg?format=jpg&width=1200",
+    "name": "David Guetta",
+    "category": "DJ",
+    "price": "₹10L - ₹20L",
+    "location": "London"
+  },
+  {
+    "id": 16,
+    "url": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2018/05/04/678952-nucleya.jpg",
+    "name": "Nucleya",
+    "category": "DJ",
+    "price": "₹10L - ₹18L",
+    "location": "Delhi"
+  },
+  {
+    "id": 17,
+    "url": "https://variety.com/wp-content/uploads/2025/02/DJ-Khaled_PC-Ivan-Berrios90-e1738690362116.jpg?w=1000&h=667&crop=1",
+    "name": "DJ Khaled",
+    "category": "DJ",
+    "price": "₹10L - ₹18L",
+    "location": "London"
+  },
+  {
+    "id": 18,
+    "url": "https://variety.com/wp-content/uploads/2024/07/Screen-Shot-2024-07-10-at-9.22.51-AM.png",
+    "name": "Ellen DeGeneres",
+    "category": "Speaker",
+    "price": "10L - ₹15L",
+    "location": "London"
+  },
+  {
+    "id": 19,
+    "url": "https://m.media-amazon.com/images/M/MV5BMjAxNzUwNjExOV5BMl5BanBnXkFtZTcwNDUyMTUxNw@@._V1_.jpg",
+    "name": "Priyanka Chopra",
+    "category": "Speaker",
+    "price": "₹40L - ₹60L",
+    "location": "New York"
+  },
+  {
+    "id": 20,
+    "url": "https://assets.vogue.com/photos/58916e518c64075803ad0315/master/w_1600%2Cc_limit/00-embed-top-bump-obama.jpg",
+    "name": "Michelle Obama",
+    "category": "Speaker",
+    "price": "₹10L - ₹18L",
+    "location": "London"
+  },
+  {
+    "id": 21,
+    "url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202505/sadhguru-301803483-16x9_0.jpg?VersionId=AQ.BxaFS2vfPHKpY0JCwx8yI5UycTs5C",
+    "name": "Sadhguru",
+    "category": "Speaker",
+    "price": "₹40L - ₹60L",
+    "location": "Mumbai"
+  },
+  {
+    "id": 22,
+    "url": "https://www.toolshero.com/wp-content/uploads/simon-sinek-toolshero.jpg",
+    "name": "Simon Sinek",
+    "category": "Speaker",
+    "price": "₹10L - ₹20L",
+    "location": "New York"
+  },
+  {
+    "id": 23,
+    "url": "https://www.hindustantimes.com/ht-img/img/2025/03/10/1600x900/SukhwinderSingh4_1741599478438_1741599503792.jpeg",
+    "name": "Sukhwinder Singh",
+    "category": "Singer",
+    "price": "₹10L - ₹18L",
+    "location": "Mumbai"
+  },
+  {
+    "id": 24,
+    "url": "https://wordpresscdn.winzogames.com/prod/blog/wp-content/uploads/2025/03/24091352/Siddharth-july_d.webp",
+    "name": "Siddharth Mahadevan",
+    "category": "Singer",
+    "price": "₹8L - ₹15L",
+    "location": "Pune"
+  },
+  {
+    "id": 25,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Zayn_Wiki_%28cropped%29.jpg",
+    "name": "Zayn Malik",
+    "category": "Singer",
+    "price": "₹40L - ₹60L",
+    "location": "London"
+  }
+]
