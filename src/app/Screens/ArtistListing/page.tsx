@@ -8,12 +8,22 @@ import ArtistCard from "@/app/components/ArtistCard";
 import Quotation from "@/app/components/Quotation";
 import Filters, { filterByPriceRange } from "@/app/components/Filters";
 
+type Artist = {
+  id: number;
+  name: string;
+  category: string;
+  price: string;
+  location: string;
+  url?: string; 
+};
+
+
 export default function ArtistListing() {
   const { category, setCategory } = useCategory();
   const urlCategory = useSearchParams().get("category");
   const [loc, setLoc] = useState("All");
   const [price, setPrice] = useState("All");
-  const [selArt, setSelArt] = useState<any>(null);
+const [selArt, setSelArt] = useState<Artist | null>(null);
   const [isOpen, setOpen] = useState(false);
 
   // Sync category from URL
