@@ -82,7 +82,6 @@ function ArtistListingInner() {
   );
 }
 
-// ✅ Wrap in Suspense to fix hydration and prerender errors
 export default function ArtistListingPage() {
   return (
     <Suspense fallback={<div className="text-center py-10 text-purple-500">Loading...</div>}>

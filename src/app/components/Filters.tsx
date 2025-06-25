@@ -11,7 +11,6 @@ interface FiltersProps {
   resetFilters: () => void;
 }
 
-// Convert price string like ₹30L - ₹50L to numeric min and max
 function parsePriceRange(priceStr: string): number[] {
   const cleaned = priceStr.replace(/[₹$,]/g, "").toUpperCase();
   const [min, max] = cleaned.split("-").map((val) => {
@@ -32,13 +31,12 @@ export default function Filters({
   setSelectedPrice,
   resetFilters,
 }: FiltersProps) {
-  // Extract unique locations
+  // to Extract unique locations
   const locations = useMemo(() => {
     const unique = [...new Set(data.map((a) => a.location))].sort();
     return ["All", ...unique];
   }, [data]);
 
-  // Define logical price ranges
   const priceRanges = [
     "All",
     "Under ₹10L",
@@ -86,7 +84,6 @@ export default function Filters({
   );
 }
 
-// 👇 Add this logic inside your ArtistListing page for actual filtering:
 export function filterByPriceRange(artistPrice: string, selectedPrice: string): boolean {
   if (selectedPrice === "All") return true;
 
